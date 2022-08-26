@@ -11,7 +11,7 @@ def get_data() -> pd.DataFrame:
 
 df = get_data()
 st.set_page_config(
-    page_title="testing dashboard",,
+    page_title="testing dashboard",
     layout="wide",
 )
 st.title("Real-Time / Live Data Science Dashboard")
